@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
 
   s.add_dependency('railties', '>= 3.1')
   s.add_dependency('rails', '>= 3.1')
-  s.add_dependency('sass', '>= 3.2')
+ # s.add_dependency('sass', '>= 3.2')
 
   s.files         = `git ls-files`.split($/)
   s.require_paths = ["lib"]
